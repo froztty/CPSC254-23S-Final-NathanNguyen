@@ -1,0 +1,44 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
+// User class/struct
+class User {
+public:
+
+    // Constructor
+    User(username, password, initialBalance) {
+        this->username = username;
+        this->password = password;
+        this->balance = initialBalance;
+    }
+
+    // Member functions
+    void deposit(double amount) {
+        // Implement deposit functionality
+    }
+
+    void withdraw(double amount) {
+        // Implement withdrawal functionality
+    }
+
+    void logActivity(const std::string& activity) {
+        // Implement activity logging functionality
+    }
+};
+
+// Function to display random ad
+void displayAd() {
+    // Implement ad display functionality
+}
+
+// Function to handle user login
+bool login(username, password) {
+    // Implement login functionality
+    return false;
+}
+
+int main() {
+    // Implement main program logic
+    return 0;
+}
